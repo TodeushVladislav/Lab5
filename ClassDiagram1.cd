@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab5.TableForm">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAEAAAIAAEAAAAABAAAA=</HashCode>
+      <FileName>TableForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5.MyEditor">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEBAAAACAACAAAAAAAQEAABBACAAAAEADAAAAAAAA=</HashCode>
+      <FileName>MyEditor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_shapes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Lab5.Shapes.LineShape">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="Lab5.Shapes.Shape" ManuallyRouted="true">
+      <Path>
+        <Point X="12.5" Y="4.911" />
+        <Point X="12.5" Y="5.5" />
+        <Point X="5" Y="5.5" />
+        <Point X="5" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Shapes\LineShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5.Shapes.PointShape">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Shapes\PointShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5.Shapes.Shape">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABkAAAAAAAAQAAwAAAACAAQIAAAAAAAA=</HashCode>
+      <FileName>Shapes\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5.MainForm">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAACgAAAAAAACAAAACAFAAAAAAIAhAAAACAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_editor" />
+      <Field Name="_tableForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Lab5.Shapes.LineOOShape">
+    <Position X="4.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAgAAAAABAAQAEAABAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Shapes\LineOOShape.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_line" />
+      <Field Name="_circle1" />
+      <Field Name="_circle2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Lab5.Shapes.RectangleShape">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAgAAAQAAAACAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Shapes\RectangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5.Shapes.CubeShape">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <AssociationLine Name="_edges" Type="Lab5.Shapes.LineShape" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.5" Y="10.569" />
+        <Point X="12.5" Y="10.819" />
+        <Point X="4" Y="10.819" />
+        <Point X="4" Y="8.002" />
+        <Point X="4.625" Y="8.002" />
+        <Point X="4.625" Y="7.627" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgACIABAAAQAEAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Shapes\CubeShape.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_frontRect" />
+      <Field Name="_backRect" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_edges" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Lab5.Shapes.EllipseShape">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="Lab5.Shapes.Shape" ManuallyRouted="true">
+      <Path>
+        <Point X="12.5" Y="4.911" />
+        <Point X="12.5" Y="5.5" />
+        <Point X="7" Y="5.5" />
+        <Point X="7" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAgAAAAAAAAQAAAAAAAAAAAIAAAAAAAE=</HashCode>
+      <FileName>Shapes\EllipseShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
